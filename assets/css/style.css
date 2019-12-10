@@ -18,6 +18,17 @@ main {
     padding: 10% 0 0 0;
 }
 
+footer {
+border-top: 8px solid #4aaaa5;
+height: 50px;
+background: #656565;
+}
+
+.content {
+    min-height: calc(100vh - 70px);
+    margin-bottom: 20px
+}
+
 .headerCont {
     height: 70px;
     width: 960px;
