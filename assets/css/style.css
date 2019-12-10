@@ -28,6 +28,10 @@ font-size: 10px;
 position: relative;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .content {
     /* This is what makes my footer sticky */
     min-height: calc(100vh - 70px);
@@ -60,11 +64,28 @@ position: relative;
 }
 .linkTab {
     width: 33.33%;
-    justify-self: center;
+    text-align: right;
+    /* justify-self: center; */
+}
+
+.mainCont {
+    width: 900px;
+    height: 900px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: white;
+    border: #eee solid 1px;
+    margin: 40px auto;
 }
 
 .cr {
     position: absolute;
     bottom: 5px;
     left: 48%;
+}
+
+.aboutMe {
+    color: #49a9a5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: left;
 }
