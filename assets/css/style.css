@@ -1,10 +1,11 @@
 body {
-    background-image: url("../images/black_thread_@2X.png");
+    background-image: url("../images/white-waves.png");
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header {
+    border-bottom: solid 2px #cccccc;
     margin: auto;
     background-color: #ffffff;
     }
@@ -21,16 +22,13 @@ main {
 footer {
 border-top: 8px solid #4aaaa5;
 height: 50px;
-background: #656565;
+background: #666666;
 text-align: center;
 color: #c6ccc6;
 font-size: 10px;
 position: relative;
 }
 
-h2 {
-    font-size: 30px;
-}
 
 .content {
     /* This is what makes my footer sticky */
@@ -43,15 +41,24 @@ h2 {
     width: 960px;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .nameTab {
     color: #ffffff;
     float: left;
-    padding: auto;
     width: 25%;
+    letter-spacing: 0.025em;
     height: 70px;
+    text-align: center;
     background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+div.h2 {
+    padding-top: 18px;
+    font-size: 30px;
+    font-weight: bold;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -70,9 +77,9 @@ h2 {
 
 .mainCont {
     width: 900px;
-    height: 900px;
-    padding: 20px 30px;
-    text-align: center;
+    height: 100%;
+    padding: 10px 30px 40px 30px;
+    /* text-align: center; */
     background-color: white;
     border: #eee solid 1px;
     margin: 40px auto;
@@ -84,8 +91,18 @@ h2 {
     left: 48%;
 }
 
-.aboutMe {
+.mainh2 {
+    font-weight: bold;
     color: #49a9a5;
+    font-size: 30px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: left;
+    display: block;
+    padding-bottom: 30px;
+    border-bottom: #dddddd solid 2px;
+}
+
+.bioPic {
+    width: 246.75px;
+    height: 213px;
 }
