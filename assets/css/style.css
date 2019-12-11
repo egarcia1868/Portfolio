@@ -150,3 +150,17 @@ div.h2 {
     float: left;
     margin: 0 30px 30px 0;
 }
+
+.portCont {
+    position: relative;
+    text-align: center;
+}
+.imageText {
+    position: absolute;
+    bottom: 40px;
+    background: #4aaaa5;
+    width: 88.5%;
+    padding: 15px 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #dddddd;
+}
