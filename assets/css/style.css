@@ -35,6 +35,10 @@ textarea {
     padding: 5px 5px;
 }
 
+/* form {
+    margin-top: 20px;
+} */
+
 .text {
     width: 98.5%;
     margin: 10px 0;
@@ -85,7 +89,7 @@ textarea {
 }
 
 div.h2 {
-    padding-top: 18px;
+    padding-top: 19px;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -107,7 +111,7 @@ div.h2 {
 .mainCont {
     width: 900px;
     height: 100%;
-    padding: 10px 30px 40px 30px;
+    padding: 40px 30px 40px 30px;
     /* text-align: center; */
     background-color: white;
     border: #eee solid 1px;
@@ -129,6 +133,7 @@ div.h2 {
     display: block;
     padding-bottom: 30px;
     border-bottom: #dddddd solid 2px;
+    margin-bottom: 30px;
 }
 
 .bioPic {
