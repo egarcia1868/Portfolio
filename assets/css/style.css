@@ -29,6 +29,34 @@ font-size: 10px;
 position: relative;
 }
 
+textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.text {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    width: 150px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 .content {
     /* This is what makes my footer sticky */
@@ -105,4 +133,12 @@ div.h2 {
 .bioPic {
     width: 246.75px;
     height: 213px;
+    float: left;
+    margin-right: 30px;
+}
+
+.bio {
+    color: #777777;
+    line-height: 200%;
+    font-size: 17px;
 }
