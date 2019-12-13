@@ -14,9 +14,9 @@
             <header>    
                 <div class="headerCont">
                     <div class="nameTab">
-                            <div class="h2">
+                            <h2>
                                     Eric Garcia
-                            </div>
+                            </h2>
                     </div>
                     <!-- links on right of navbar -->
                     <div class="links">
@@ -28,16 +28,16 @@
             </header>
             <!-- end of navbar -->
             <main class="mainCont clearfix">
-                <p class="mainh2">Contact</p>
-                <form action="">
+                <h2 class="mainh2">Contact</h2>
+                <form id="contactForm">
                     Name<br>
                     <input class="text" type="text" name="fullName" placeholder="ex. John Smith"><br>
                     Email<br>
                     <input class="text" type="text" name="email" placeholder="example@gmail.com"><br>
                     Message<br>
-                    <textarea name="comment" rows="15" form="usrform"></textarea>
-                    <input class="button" type="submit" value="Submit">
                 </form>
+                <textarea name="comment" rows="15" form="contactForm"></textarea>
+                <input class="button" type="submit" value="Submit" form="contactForm">
             </main>
         </div>
         
