@@ -1,0 +1,12 @@
+
+/* This is going to need media queries */
+.navpadding {
+    padding: 0 15%;
+    background: black
+}
+
+/* Think I'm going to have to make this out of the ul tag */
+.nametag {
+    justify-content: flex-start!important;
+    color: red;
+}
