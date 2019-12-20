@@ -2,11 +2,69 @@
 /* This is going to need media queries */
 .navpadding {
     padding: 0 15%;
-    background: black
 }
+
+@media screen and (max-width: 768px) {
+    .rstpos {
+        text-align: center;
+    }
+    
+    .navpadding {
+        padding: 0;
+        left: 0px!important;
+    }
+}
+
+
+.moveleft {
+    position: relative;
+    left: -10px;
+}
+
 
 /* Think I'm going to have to make this out of the ul tag */
 .nametag {
-    justify-content: flex-start!important;
-    color: red;
+    background-color: #4aaaa5;
+    width: 25%;
+    height: 68px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #ffffff
+}
+
+h2 {
+    padding-top: 17px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* vv use this for reference with your nametag vv */
+/* .nameTab {
+    color: #ffffff;
+    float: left;
+    width: 25%;
+    letter-spacing: 0.025em;
+    height: 70px;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+} */
+
+.bioPic {
+    width: 246.75px;
+    height: 213px;
+    float: left;
+    margin-right: 30px;
+}
+
+.nav {
+    height: 70px;
+    align-items: center;
+    border-bottom: solid 2px #cccccc;
+    background-color: #ffffff;
+}
+
+a {
+    color: #aaa;
 }
