@@ -81,11 +81,10 @@ label {
     margin: 0 30px 15px 0;
 }
 
-#portCont1 {
+.portCont {
     text-align: center;
     float: left;
-    width: 30%;
-    margin-right: 4.99%;
+    width: inherit;
 }
 
 #portCont2 {
@@ -114,14 +113,46 @@ label {
 }
 
 .portfolioPic {
-    width: 100%;
+    width: 210px;
+    height: 192px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 62px;
+  height: 192px;
+  width: 210px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #49a9a5;
+
+}
+
+.portCont:hover .overlay {
+  opacity:.85;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .imageText {
     position: relative;
     bottom: 60px;
+    left: 47px;
     background: #4aaaa5;
-    width: 100%;
+    width: 210px;
     padding: 10px 0;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #dddddd;
