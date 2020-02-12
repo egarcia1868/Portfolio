@@ -87,7 +87,7 @@ label {
     width: inherit;
 }
 
-#portCont2 {
+/* #portCont2 {
     text-align: center;
     float: left;
     width: 30%;
@@ -110,30 +110,88 @@ label {
     text-align: center;
     float: left;
     width: 30%;
-}
+} */
 
 .portfolioPic {
     width: 210px;
     height: 192px;
 }
 
-.overlay {
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+  background-color:#65C6BB;}
+
+.lightMode
+{
+  /* display:table-cell; */
+  width:210px; height:192px;
+  background-size:cover;
+  overflow: hidden;
+  position: relative;
+}
+.lightMode .darkMode
+{
+  background-color:rgba(19,30,33,0.4);
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 62px;
-  height: 192px;
-  width: 210px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #49a9a5;
+  z-index: 1000;
+  top:0;left:0;right:0;bottom:0;
+  
+}
+.lightMode:hover .darkMode
+{
+  background-color:rgba(16,23,41,0);
+}
+.lightMode .movingTitle
+{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  padding: 7px;
+  z-index: 1000;
+  top:50%;left:-80%;
+  color:#ffffff;
+  font-weight: 300;
+  font-size: 13px; width: 80%;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  transition: all 0.7s;
 
 }
-
-.portCont:hover .overlay {
-  opacity:.85;
+.lightMode:hover .movingTitle
+{
+  background-color:#1e4944; left:0px;
+  
 }
+.lightMode .movingSubtitle
+{
+  position: absolute;
+  font-family: 'Roboto';
+  padding: 5px;
+  z-index: 1000;
+  top:50%;right:-85%;
+  margin-top: 25px;
+  color:#ffffff;
+  font-weight: 300;
+  font-size: 11px; width: 80%;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  transition: all 0.7s;
+}
+.lightMode:hover .movingSubtitle
+{
+  background-color:#417c74;right:0px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .text {
   color: white;
