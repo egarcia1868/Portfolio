@@ -7,8 +7,14 @@ body {
     background-color: white;
     border: #eee solid 1px;
     padding: 40px 30px;
-    margin: 40px 0;
+    margin: 40px 0 96px 0;
     height: 100%;
+}
+
+.bio {
+    color: #777777;
+    line-height: 200%;
+    font-size: 17px;
 }
 
 .mainh2 {
@@ -43,11 +49,22 @@ h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-.bioPic {
-    width: 246.75px;
-    height: 213px;
-    float: left;
-    margin: 0 30px 4px 0;
+label {
+    color: #777777;
+    font-size: 19px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 19px;
+    width: 120px;
 }
 
 .nav {
@@ -57,10 +74,155 @@ h2 {
     background-color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+.bioPic {
+    width: 246.75px;
+    height: 213px;
+    float: left;
+    margin: 0 30px 15px 0;
+}
+
+#portCont1 {
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin-right: 4.99%;
+}
+
+#portCont2 {
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+#portCont3 {
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin-left: 4.99%;
+}
+#portCont4 {
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin-right: 4.99%;
+}
+
+#portCont5 {
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+.portfolioPic {
+    width: 100%;
+}
+
+.imageText {
+    position: relative;
+    bottom: 60px;
+    background: #4aaaa5;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #dddddd;
+}
+
+@media screen and (max-width: 767px) {
     .nav {
-       height: 108px!important; 
+       height: 108px; 
     }
+
+    .bioPic {
+        width: 50%;
+        height: 50%;
+    }
+    #portCont1 {
+        text-align: center;
+        float: left;
+        width: 47.5%;
+        margin-right: 2.5%;
+        margin-left: 0;
+    }
+    
+    #portCont2 {
+        text-align: center;
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-right: 0;
+    }
+    
+    #portCont3 {
+        text-align: center;
+        float: left;
+        width: 47.5%;
+        margin-right: 2.5%;
+        margin-left: 0;
+    }
+  
+    #portCont4 {
+        text-align: center;
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-right: 0;
+    }
+    
+    #portCont5 {
+        text-align: center;
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-right: 0;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .bioPic {
+        width: 100%;
+        height: 100%;
+    }
+    #portCont1 {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #portCont2 {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #portCont3 {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+  
+    #portCont4 {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #portCont5 {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 a {
