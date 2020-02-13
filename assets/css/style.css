@@ -112,11 +112,6 @@ label {
     width: 30%;
 } */
 
-.portfolioPic {
-    width: 210px;
-    height: 192px;
-}
-
 .fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
   background-color:#65C6BB;}
 
@@ -132,7 +127,7 @@ label {
 {
   background-color:rgba(19,30,33,0.4);
   position: absolute;
-  z-index: 1000;
+  z-index: 100;
   top:0;left:0;right:0;bottom:0;
   
 }
@@ -146,7 +141,7 @@ label {
   text-transform: uppercase;
   font-family: 'Roboto';
   padding: 7px;
-  z-index: 1000;
+  z-index: 100;
   top:50%;left:-80%;
   color:#ffffff;
   font-weight: 300;
@@ -155,8 +150,12 @@ label {
   -moz-transition: all 0.7s;
   -ms-transition: all 0.7s;
   transition: all 0.7s;
-
 }
+
+.movingTitle1 {
+  top: 40% !important;
+}
+
 .lightMode:hover .movingTitle
 {
   background-color:#1e4944; left:0px;
@@ -167,7 +166,7 @@ label {
   position: absolute;
   font-family: 'Roboto';
   padding: 5px;
-  z-index: 1000;
+  z-index: 100;
   top:50%;right:-85%;
   margin-top: 25px;
   color:#ffffff;
@@ -183,7 +182,9 @@ label {
   background-color:#417c74;right:0px;
 }
 
-
+.row {
+  margin-bottom: 35px;
+}
 
 
 
@@ -328,10 +329,17 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 101;
 }
 
 .cr {
     position: absolute;
     bottom: 5px;
     left: 48%;
+}
+
+.portfolioPic {
+  width: 210px;
+  height: 192px;
+  margin: 0 auto;
 }
