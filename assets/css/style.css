@@ -3,6 +3,16 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+ul {
+  /* list-style-type: circle; */
+  /* list-style-position: inside; */
+  list-style: none;
+}
+
+li.skills::before {
+  content: "•"; color: #777777;
+}
+
 .mainCont {
     background-color: white;
     border: #eee solid 1px;
@@ -75,8 +85,8 @@ label {
 }
 
 .bioPic {
-    width: 246.75px;
-    height: 213px;
+    width: 160px;
+    height: 155px;
     float: left;
     margin: 0 30px 15px 0;
 }
