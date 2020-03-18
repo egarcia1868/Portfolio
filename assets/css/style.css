@@ -227,55 +227,67 @@ label {
     color: #dddddd;
 }
 
-@media screen and (max-width: 767px) {
-    .nav {
-       height: 108px; 
-    }
+@media screen and (max-width: 575px) {
+  .contactCont {
+    margin-top: -96px!important;
+  }
+}
 
-    .bioPic {
-        width: 50%;
-        height: 50%;
-    }
-    #portCont1 {
-        text-align: center;
-        float: left;
-        width: 47.5%;
-        margin-right: 2.5%;
-        margin-left: 0;
-    }
-    
-    #portCont2 {
-        text-align: center;
-        float: left;
-        width: 47.5%;
-        margin-left: 2.5%;
-        margin-right: 0;
-    }
-    
-    #portCont3 {
-        text-align: center;
-        float: left;
-        width: 47.5%;
-        margin-right: 2.5%;
-        margin-left: 0;
-    }
+@media screen and (min-width: 576px) {
+  .hidesmall {
+    display: none!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    height: 108px; 
+  }
+
+  .bioPic {
+    width: 50%;
+    height: 50%;
+  }
+  #portCont1 {
+    text-align: center;
+    float: left;
+    width: 47.5%;
+    margin-right: 2.5%;
+    margin-left: 0;
+  }
   
-    #portCont4 {
-        text-align: center;
-        float: left;
-        width: 47.5%;
-        margin-left: 2.5%;
-        margin-right: 0;
-    }
-    
-    #portCont5 {
-        text-align: center;
-        float: left;
-        width: 47.5%;
-        margin-left: 2.5%;
-        margin-right: 0;
-    }
-    
+  #portCont2 {
+    text-align: center;
+    float: left;
+    width: 47.5%;
+    margin-left: 2.5%;
+    margin-right: 0;
+  }
+  
+  #portCont3 {
+    text-align: center;
+    float: left;
+    width: 47.5%;
+    margin-right: 2.5%;
+    margin-left: 0;
+  }
+
+  #portCont4 {
+    text-align: center;
+    float: left;
+    width: 47.5%;
+    margin-left: 2.5%;
+    margin-right: 0;
+  }
+  
+  #portCont5 {
+    text-align: center;
+    float: left;
+    width: 47.5%;
+    margin-left: 2.5%;
+    margin-right: 0;
+  }
+  
 }
 
 @media screen and (max-width: 640px) {
