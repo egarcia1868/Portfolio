@@ -260,6 +260,10 @@ label {
   margin-bottom: 35px;
 }
 
+.notTop {
+  margin-bottom: 130px;
+}
+
 /* ^^^ */
 
 
@@ -430,7 +434,8 @@ footer {
 }
 
 .portfolioPic {
-  width: 210px;
-  height: 192px;
-  margin: 0 auto;
+  width: 33.33%;
+  height: 250px;
+  float: left;
+  /* height: 192px; */
 }

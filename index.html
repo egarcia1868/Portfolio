@@ -70,7 +70,7 @@
     <div class="labelBar" id="about">
       <h1>About Me</h1>
     </div>
-    <div class="row" style="margin-bottom: 130px">
+    <div class="row notTop">
       <div class="col-xl-2 col-lg-2 col-1">
       </div>
       <div class="col-xl-8 col-lg-8 col-10">
@@ -89,7 +89,7 @@
     <div class="labelBar" id="about">
         <h1>Skills & Experience</h1>
       </div>
-      <div class="row">
+      <div class="row notTop">
         <div class="col-xl-1 col-lg-1">
         </div>
         <div class="col-xl-5 col-lg-5 col-6">
@@ -107,64 +107,80 @@
         <div class="col-xl-1 col-lg-1">
         </div>
       </div>
-            <div id="portfolio">
-              <h2 class="mainh2">Portfolio</h2>
-              <div class="row">
-                <div class="col-6">
-                  <div class="portfolioPic lightMode" style="background-image:url(./assets/images/expediLog.png); background-size:100% 100%; margin: 0 auto;"><a href="https://project-2-3-21-20.herokuapp.com/">
-                    <div class="darkMode">
-                      <div class="movingTitle">expediLog</div>
-                      <div class="movingSubtitle">An app for logging trip experiences - displaying my ability to use sequelize to store and retrieve data from databases</div>
-                    </div></a>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="portfolioPic lightMode" style="background-image:url(./assets/images/EatDaBurger.png); background-size:100% 100%; margin: 0 auto;"><a href="https://whispering-ridge-27306.herokuapp.com/">
-                    <div class="darkMode">
-                      <div class="movingTitle">MVC Demo App</div>
-                      <div class="movingSubtitle">A simple app displaying my ability to use the MVC (Model-View-Controller) design pattern.</div>
-                    </div></a>
-                  </div>
-                </div>
-              </div>
-                <div class="row">
-                  <div class="col-6">
-                    <div class="portfolioPic lightMode" style="background-image:url(./assets/images/CasaCocktailsPic.png); background-size:100% 100%; margin: 0 auto;"><a href="https://egarcia1868.github.io/Casa-Cocktail/">
-                      <div class="darkMode">
-                        <div class="movingTitle">Casa Cocktails</div>
-                        <div class="movingSubtitle">An app for finding out what drinks can be made with what you have on hand including instruction on how to make them.</div>
-                      </div></a>
-                    </div>  
-                  </div>
-                  <div class="col-6">
-                    <div class="portfolioPic lightMode" style="background-image:url(./assets/images/WeatherScreenShot.png); background-size:100% 100%; margin: 0 auto;"><a href="https://egarcia1868.github.io/Weather_Dashboard/">
-                      <div class="darkMode">
-                        <div class="movingTitle">Weather Forecast App</div>
-                        <div class="movingSubtitle">An app that retrieves the current weather for a searched city as well as the weather forecast for the next five days.</div>
-                      </div></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-6">
-                    <div class="portfolioPic lightMode" style="background-image:url(./assets/images/WorkDayScheduler.png); background-size:100% 100%; margin: 0 auto;"><a href="https://egarcia1868.github.io/Work_Day_Scheduler/">
-                      <div class="darkMode">
-                        <div class="movingTitle">Day Scheduler</div>
-                        <div class="movingSubtitle">An simple scheduler for logging and keeping track of your tasks for the day.</div>
-                      </div></a>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="portfolioPic lightMode" style="background-image:url(./assets/images/QuizScreenShot.png); background-size:100% 100%; margin: 0 auto;"><a href="https://egarcia1868.github.io/code_quiz/">
-                      <div class="darkMode">
-                        <div class="movingTitle">Code Quiz</div>
-                        <div class="movingSubtitle">A simple quiz app that will keep score - deducting time for wrong answers.</div>
-                      </div></a>
-                    </div>
-                  </div>
-                </div>      
+      <div class="labelBar" style="margin-bottom: 0" id="portfolio">
+          <h1>Portfolio</h1>
       </div>
-      <div class="col-xl-2 col-lg-2 col-1">
+      <div style="margin-bottom: 650px">
+        <div class="portfolioPic lightMode" style="background-image:url(./assets/images/expediLog.png); background-size:100% 100%;">
+          <a href="https://project-2-3-21-20.herokuapp.com/">
+            <div class="darkMode">
+              <div class="movingTitle">
+                expediLog
+              </div>
+              <div class="movingSubtitle">
+                An app for logging trip experiences - displaying my ability to use sequelize to store and retrieve data from databases.
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="portfolioPic lightMode" style="background-image:url(./assets/images/EatDaBurger.png); background-size:100% 100%;">
+          <a href="https://whispering-ridge-27306.herokuapp.com/">
+            <div class="darkMode">
+              <div class="movingTitle">
+                MVC Demo App
+              </div>
+              <div class="movingSubtitle">
+                A simple app displaying my ability to use the MVC (Model-View-Controller) design pattern.
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="portfolioPic lightMode" style="background-image:url(./assets/images/CasaCocktailsPic.png); background-size:100% 100%;">
+          <a href="https://egarcia1868.github.io/Casa-Cocktail/">
+            <div class="darkMode">
+              <div class="movingTitle">
+                Casa Cocktails
+              </div>
+              <div class="movingSubtitle">
+                An app for finding out what drinks can be made with what you have on hand including instruction on how to make them.
+              </div>
+            </div>
+          </a>
+        </div>  
+        <div class="portfolioPic lightMode" style="background-image:url(./assets/images/WeatherScreenShot.png); background-size:100% 100%;">
+          <a href="https://egarcia1868.github.io/Weather_Dashboard/">
+            <div class="darkMode">
+              <div class="movingTitle">
+                Weather Forecast App
+              </div>
+              <div class="movingSubtitle">
+                An app that retrieves the current weather for a searched city as well as the weather forecast for the next five days.
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="portfolioPic lightMode" style="background-image:url(./assets/images/WorkDayScheduler.png); background-size:100% 100%;">
+          <a href="https://egarcia1868.github.io/Work_Day_Scheduler/">
+            <div class="darkMode">
+              <div class="movingTitle">
+                Day Scheduler
+              </div>
+              <div class="movingSubtitle">
+                An simple scheduler for logging and keeping track of your tasks for the day.
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="portfolioPic lightMode" style="background-image:url(./assets/images/QuizScreenShot.png); background-size:100% 100%;">
+          <a href="https://egarcia1868.github.io/code_quiz/">
+            <div class="darkMode">
+              <div class="movingTitle">
+                Code Quiz</div>
+              <div class="movingSubtitle">
+                A simple quiz app that will keep score - deducting time for wrong answers.</div>
+            </div>
+          </a>
+        </div>  
       </div>
     </main>
   <footer>
