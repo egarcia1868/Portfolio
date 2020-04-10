@@ -1,6 +1,8 @@
 body {
-    background-image: url("../images/white-waves.png");
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* background-image: url("../images/white-waves.png"); */
+    background: white;
+    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+    font-family: "Maison Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 ul {
@@ -9,16 +11,41 @@ ul {
   list-style: none;
 }
 
+.uptop {
+  margin-top: 40px;
+}
+
 li.skills::before {
   content: "•"; color: #777777;
 }
 
-.mainCont {
+main {
+  padding-top: 50px;
+}
+
+/* .mainCont {
     background-color: white;
     border: #eee solid 1px;
     padding: 40px 30px;
     margin: 40px 0 96px 0;
     height: 100%;
+} */
+
+/* #idea {
+  font-weight: 900;
+  font-size: 3.5em;
+} */
+
+#idea .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.intro {
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+  line-height: 100%;
 }
 
 .bio {
@@ -49,7 +76,7 @@ li.skills::before {
     width: 25%;
     height: 68px;
     text-align: center;
-    color: #ffffff
+    /* color: #ffffff */
 }
 
 h2 {
@@ -77,18 +104,26 @@ label {
     width: 120px;
 }
 
-.nav {
-    height: 70px;
-    align-items: center;
-    border-bottom: solid 2px #cccccc;
-    background-color: #ffffff;
+.nav-link {
+  margin-top: 10px;
+}
+
+.toptext {
+  float: left;
+  margin: 5px 0 0 20px;
+  transition: color 1s;
+}
+
+.toptext:hover, a:hover {
+  color: lawngreen;
 }
 
 .bioPic {
-    width: 160px;
-    height: 155px;
+    /* width: 160px; */
+    height: 3.5rem;
     float: left;
-    margin: 0 30px 15px 0;
+    /* margin: 0 30px 15px 0; */
+    border-radius: 2.5rem;
 }
 
 .portCont {
@@ -121,6 +156,8 @@ label {
     float: left;
     width: 30%;
 } */
+
+/* vvv This does the animation over my portfolio pictures  vvv */
 
 .fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
   background-color:#65C6BB;}
@@ -196,7 +233,7 @@ label {
   margin-bottom: 35px;
 }
 
-
+/* ^^^ */
 
 
 
@@ -245,15 +282,17 @@ label {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .topline {
+    margin: 0 30%; 
+  }
+}
+
 @media screen and (max-width: 767px) {
-  .nav {
-    height: 108px; 
+  .topline {
+    margin: 0 20%; 
   }
 
-  .bioPic {
-    width: 50%;
-    height: 50%;
-  }
   #portCont1 {
     text-align: center;
     float: left;
@@ -297,10 +336,6 @@ label {
 }
 
 @media screen and (max-width: 640px) {
-    .bioPic {
-        width: 100%;
-        height: 100%;
-    }
     #portCont1 {
         text-align: center;
         float: left;
@@ -345,10 +380,11 @@ label {
 
 a {
     color: #aaa;
+    transition: color 1s;
 }
 
 footer {
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid lawngreen;
     height: 50px;
     background: #666666;
     text-align: center;
