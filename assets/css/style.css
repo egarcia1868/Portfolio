@@ -79,6 +79,7 @@ main {
 .titleSkills {
   font-size: 1.5rem;
   line-height: 100%;
+  /* font-weight: 400; */
 }
 
 .mainh2 {
