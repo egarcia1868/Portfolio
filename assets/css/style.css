@@ -162,45 +162,6 @@ label {
     /* border-radius: 2.5rem; */
 }
 
-.icon {
-  position: relative;
-  display: inline-block;
-  
-  border-bottom: 1px dotted black;
-}
-
-.icon .icontext {
-  top: -5px;
-  left: 150%;
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the icon */
-  position: absolute;
-  z-index: 1;
-}
-
-.icon:hover .icontext {
-  visibility: visible;
-}
-
-/* This is for the arrow part of the bubble */
-.icon .icontext::after {
-  content: " ";
-  position: absolute;
-  top: 100%; /* At the bottom of the icon */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-}
-
 .portCont {
     text-align: center;
     float: left;
