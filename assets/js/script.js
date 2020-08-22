@@ -58,7 +58,7 @@ function changeActiveFont() {
   if (count === 13) {
     count = 0
   }
-  // alert(iconList[count] +" --- "+ count)
+  
   if (firstCount === true) {
     firstCount = false
   } else if (count === 0) {
@@ -70,7 +70,10 @@ function changeActiveFont() {
   if ($(`#${iconList[count]}`).hasClass("active")) {
     $(`.${iconList[count]}`).addClass("red")
   }
-  // alert(iconList[count])
+
+  //COUNT IS NOT RESETTING ALONG WITH THE "HOVERED" NAME.  NEED TO FIGURE OUT HOW TO GET THESE IN SYNC
+  
+
   count++
 }
 
