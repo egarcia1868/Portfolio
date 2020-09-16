@@ -40,9 +40,9 @@ main {
   padding-top: 50px;
 }
 
-.carousel-inner > .item > img,
+/* .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  /* width: 70%; */
+  width: 70%;
   height: 100px;
   margin: auto;
 }
@@ -50,7 +50,7 @@ main {
 .carousel {
   max-width: 150px;
   margin: auto;
-}
+} */
 
 /* .mainCont {
     background-color: white;
@@ -165,10 +165,6 @@ label {
     float: left;
     /* margin: 0 30px 15px 0; */
     border-radius: 4.5rem;
-}
-
-.red {
-  color: red;
 }
 
 .iconPic {
