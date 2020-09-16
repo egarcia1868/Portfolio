@@ -432,9 +432,14 @@ label {
 
 }
 
-a {
+.gray {
     color: #aaa;
     transition: color 1s;
+}
+
+a.portLink {
+  color: deepskyblue;
+  
 }
 
 footer {
