@@ -1,4 +1,4 @@
-# Eric Garcia's Responsive Bio & Portfolio (2nd homework assignment)
+# Eric Garcia's Responsive Bio & Portfolio
 
 Here are my bio, contact, and portfolio pages.
 
@@ -17,5 +17,5 @@ Feel free to click through and resize any of my pages as they should respond app
 
 ### Acknowledgments
 
-* Big ups to our instructor, Calvin Carter, and our TAs, Mark Alaniz & Amanda Padilla, as well as our Student Success Manager, Sean Fleming
+*Big ups to my mentor, Calvin Carter for help throughout the production of this and many of my other projects.*
 * Tons of help for this was found at w3schools (https://www.w3schools.com/), mozilla (https://developer.mozilla.org/), and various googleables
