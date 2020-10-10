@@ -455,6 +455,10 @@ footer {
     z-index: 101;
 }
 
+i {
+  font-size: 50px;
+}
+
 .cr {
     position: absolute;
     bottom: 5px;
