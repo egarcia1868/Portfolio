@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/font-mfizz-2.4.1/font-mfizz.css">
   <script src="https://kit.fontawesome.com/9eb3926f16.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -76,7 +77,7 @@
     <div class="labelBar" id="about">
       <h1>About Me</h1>
     </div>
-    <div class="row notTop">
+    <div class="row margBot">
       <div class="col-xl-2 col-lg-2 col-1">
       </div>
       <div class="col-xl-8 col-lg-8 col-10">
@@ -100,7 +101,7 @@
     <div class="labelBar" id="skills">
       <h1>Skills & Experience</h1>
     </div>
-    <div class="row notTop">
+    <div class="row">
       <div class="col-xl-1 col-lg-1">
       </div>
       <div class="col-xl-5 col-lg-5 col-6">
@@ -129,197 +130,206 @@
         </p>
         <p class="bio">
           In the field of web development, one must always be learning new languages and frameworks. I make it a point
-          to stay up to date with the latest and most widely used coding languages in the industry. Some of the
-          technologies that I am experienced with include: HTML, CSS, JavaScript, Python, jQuery, AJAX, React,
-          Handlebars, MySQL, MongoDB, Heroku, Git, & Github.
+          to stay up to date with the latest and most widely used coding languages in the industry.
         </p>
+      </div>
+      <div class="col-xl-1 col-lg-1">
+      </div>
+    </div>
+    <div class="row margBot">
+      <div class="col-xl-1 col-lg-1">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-12">
+        <div style="margin-bottom: -125px;">
+          <p class="titleSkills bio skillIcons">
+            Some of the technologies that I am experienced with include:
+          </p>
+          <div class="row">
+            <div class="text-center mx-5 col">
+              <i alt="Git icon" class="fab skillsIcons fa-git-alt"
+                >
+                <p class="skillsIconP">Git</p>
+              </i>
+              <i alt="React.js icon" class="fab skillsIcons fa-react"
+                >
+                <p class="skillsIconP">React</p>
+              </i>
+              <i alt="Node.js icon" class="fab skillsIcons fa-node"
+                >
+                <p class="skillsIconP">Node.js</p>
+              </i>
+              <i alt="HTML icon" class="fab skillsIcons fa-html5"
+                >
+                <p class="skillsIconP">HTML 5</p>
+              </i>
+              <i alt="Javascript icon" class="fab skillsIcons fa-js-square"
+                >
+                <p class="skillsIconP">Javascript</p>
+              </i>
+              <i alt="CSS icon" class="fab skillsIcons fa-css3-alt"
+                >
+                <p class="skillsIconP">CSS 3</p>
+              </i>
+              <i alt="python icon" class="fab skillsIcons icon-python"
+                >
+                <p class="skillsIconP">Python</p>
+              </i>
+              <i alt="mySQL icon" class="fab skillsIcons icon-mysql"
+                >
+                <p class="skillsIconP">MySQL</p>
+              </i>
+              <i alt="Mongodb icon" class="fab skillsIcons icon-mongodb"
+                >
+                <p class="skillsIconP">MongoDB</p>
+              </i>
+              <i alt="Bootstrap icon" class="fab skillsIcons fa-bootstrap"
+                >
+                <p class="skillsIconP">Bootstrap</p>
+              </i>
+              <i alt="heroku icon" class="fab skillsIcons icon-heroku"
+                >
+                <p class="skillsIconP">Heroku</p>
+              </i>
+              <i alt="jQuery icon" class="fab skillsIcons icon-jquery"
+                >
+                <p class="skillsIconP">jQuery</p>
+              </i>
+            </div>
+          </div>
+          <div class="row margBot">
+            <div class="text-center col">
+              <i class="fab skillsIcons" >
+                <p class="noIconP">WebPack</p>
+              </i>
+              <i class="fab skillsIcons" >
+                <p class="noIconP">Express</p>
+              </i>
+              <i class="fab skillsIcons" >
+                <p class="noIconP">Handlebars</p>
+              </i>
+              <i class="fab skillsIcons" >
+                <p class="noIconP">React Router</p>
+              </i>
+              <i class="fab skillsIcons" >
+                <p class="noIconP">Redux</p>
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-1 col-lg-1">
+      </div>
+    </div>
+    <div class="labelBar" id="portfolio">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="row">
+      <div class="col-xl-1 col-lg-1">
+      </div>
+      <div class="col-xl-10 col-lg-10 col-12">
+        <div class="card">
+          <img class="portfolioPic " src="./assets/images/Boardgame.gif" alt="À la Board">
+          <div class="card-body">
+            <h2>À la Board</h2>
+            <p class="card-text">An app for organizing board game parties. Uses a database to help share which games are owned by party
+              attendees to know what games are available to be played.</p>
+          </div>
+            <p class="card-stack">Stack:</p>
+          <p class="card-text">
+            HTML, CSS, JavaScript, React.js, MySQL / JawsDB, Boardgamegeek API
+          </p>
+          <div class="card-footer">
+            <div class="portfolioLinkDivs"><a href="https://github.com/egarcia1868/A-La-Board" target="_blank" aria-label="link to github repo"><i class="fab fa-github portfolioLinks" ></i></a></div>
+            <div class="portfolioLinkDivs"><a href="https://warm-bayou-44198.herokuapp.com/" target="_blank" aria-label="link to deployed site"><i class="fas fa-external-link-alt portfolioLinks"></i></a></div>
+          </div>
+        </div>
 
+        <div class="card">
+          <img class="portfolioPic " src="./assets/images/expediLog.png" alt="expediLog">
+          <div class="card-body">
+            <h2>expediLog</h2>
+            <p class="card-text">An app for logging trip experiences - displaying my ability to use sequelize to store and retrieve data
+              from
+              databases.</p>
+          </div>
+            <p class="card-stack">Stack:</p>
+          <p class="card-text">
+            HTML, CSS, JavaScript, Express.js, MySQL / JawsDB, AJAX, APIs
+          </p>
+          <div class="card-footer">
+            <div class="portfolioLinkDivs"><a href="https://github.com/egarcia1868/expediLog" target="_blank" aria-label="link to github repo"><i class="fab fa-github portfolioLinks" ></i></a></div>
+            <div class="portfolioLinkDivs"><a href="https://project-2-3-21-20.herokuapp.com/" target="_blank" aria-label="link to deployed site"><i class="fas fa-external-link-alt portfolioLinks"></i></a></div>
+          </div>
+        </div>  
+        <div class="card">
+          <img class="portfolioPic " src="./assets/images/EatDaBurger.png" alt="EatDaBurger">
+          <div class="card-body">
+            <h2>MVC Demo App</h2>
+            <p class="card-text">A simple app displaying my ability to use the MVC (Model-View-Controller) design pattern.</p>
+          </div>
+            <p class="card-stack">Stack:</p>
+          <p class="card-text">
+            HTML, CSS, JavaScript, handlebars.js, Node.js, Express, MySQL / JawsDB, MVC / ORM, Boostrap
+          </p>
+          <div class="card-footer">
+            <div class="portfolioLinkDivs"><a href="https://github.com/egarcia1868/MVC-proof-of-concept" target="_blank" aria-label="link to github repo"><i class="fab fa-github portfolioLinks" ></i></a></div>
+            <div class="portfolioLinkDivs"><a href="https://whispering-ridge-27306.herokuapp.com/" target="_blank" aria-label="link to deployed site"><i class="fas fa-external-link-alt portfolioLinks"></i></a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="portfolioPic " src="./assets/images/CasaCocktailsPic.png" alt="Casa Cocktails">
+          <div class="card-body">
+            <h2>Casa Cocktails</h2>
+            <p class="card-text">An app for finding out what drinks can be made with what you have on hand including instruction on how to
+              make them.</p>
+          </div>
+            <p class="card-stack">Stack:</p>
+          <p class="card-text">
+            H​TML, CSS, JavaScript, AJAX, jQuery, TheCocktailDB API
+          </p>
+          <div class="card-footer">
+            <div class="portfolioLinkDivs"><a href="https://github.com/egarcia1868/Casa-Cocktail" target="_blank" aria-label="link to github repo"><i class="fab fa-github portfolioLinks" ></i></a></div>
+            <div class="portfolioLinkDivs"><a href="https://egarcia1868.github.io/Casa-Cocktail/" target="_blank" aria-label="link to deployed site"><i class="fas fa-external-link-alt portfolioLinks"></i></a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="portfolioPic " src="./assets/images/WeatherScreenShot.png" alt="Weather Dashboard">
+          <div class="card-body">
+            <h2>Weather Dashboard</h2>
+            <p class="card-text">An app that retrieves the current weather for a searched city as well as the weather forecast for the next
+              five days.</p>
+          </div>
+            <p class="card-stack">Stack:</p>
+          <p class="card-text">
+            HTML, CSS, JavaScript, AJAX, jQuery, Moment.js, Bootstrap, OpenWeatherMap API
+          </p>
+          <div class="card-footer">
+            <div class="portfolioLinkDivs"><a href="https://github.com/egarcia1868/Weather_Dashboard" target="_blank" aria-label="link to github repo"><i class="fab fa-github portfolioLinks" ></i></a></div>
+            <div class="portfolioLinkDivs"><a href="https://egarcia1868.github.io/Weather_Dashboard/" target="_blank" aria-label="link to deployed site"><i class="fas fa-external-link-alt portfolioLinks"></i></a></div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="portfolioPic " src="./assets/images/WorkDayScheduler.png" alt="Work Day Scheduler">
+          <div class="card-body">
+            <h2>Work Day Scheduler</h2>
+            <p class="card-text">A simple scheduler for logging and keeping track of your tasks for the day.</p>
+          </div>
+            <p class="card-stack">Stack:</p>
+          <p class="card-text">
+            HTML, CSS, JavaScript, Bootstrap, jQuery, Moment.js, local storage
+          </p>
+          <div class="card-footer">
+            <div class="portfolioLinkDivs"><a href="https://github.com/egarcia1868/Work_Day_Scheduler" target="_blank" aria-label="link to github repo"><i class="fab fa-github portfolioLinks" ></i></a></div>
+            <div class="portfolioLinkDivs"><a href="https://egarcia1868.github.io/Work_Day_Scheduler/" target="_blank" aria-label="link to deployed site"><i class="fas fa-external-link-alt portfolioLinks"></i></a></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="col-xl-1 col-lg-1">
     </div>
-    <div class="labelBar" style="margin-bottom: 0" id="portfolio">
-      <h1>Portfolio</h1>
-    </div>
-    <div style="margin-bottom: 650px">
-      <div class="portfolioPic lightMode"
-        style="background-image:url(./assets/images/Boardgame.gif); background-size:100% 100%;">
-        <div class="darkMode">
-          <div class="movingTitle">
-            À la Board</div>
-          <div class="movingSubtitle">
-            An app for organizing board game parties. Uses a database to help share which games are owned by party
-            attendees to know what games are available to be played. </br>
-            <a class="portLink" href="https://github.com/egarcia1868/A-La-Board">Code</a> ---
-            <a class="portLink" href="https://warm-bayou-44198.herokuapp.com/">App</a>
-          </div>
-        </div>
-      </div>
-      <div class="portfolioPic lightMode"
-        style="background-image:url(./assets/images/expediLog.png); background-size:100% 100%;">
-        <div class="darkMode">
-          <div class="movingTitle">
-            expediLog
-          </div>
-          <div class="movingSubtitle">
-            An app for logging trip experiences - displaying my ability to use sequelize to store and retrieve data from
-            databases. </br>
-            <a class="portLink" href="https://github.com/egarcia1868/expediLog">Code</a> ---
-            <a class="portLink" href="https://project-2-3-21-20.herokuapp.com/">App</a>
-          </div>
-        </div>
-      </div>
-      <div class="portfolioPic lightMode"
-        style="background-image:url(./assets/images/EatDaBurger.png); background-size:100% 100%;">
-        <div class="darkMode">
-          <div class="movingTitle">
-            MVC Demo App
-          </div>
-          <div class="movingSubtitle">
-            A simple app displaying my ability to use the MVC (Model-View-Controller) design pattern. </br>
-            <a class="portLink" href="https://github.com/egarcia1868/expediLog">Code</a> ---
-            <a class="portLink" href="https://whispering-ridge-27306.herokuapp.com/">App</a>
-          </div>
-        </div>
-      </div>
-      <div class="portfolioPic lightMode"
-        style="background-image:url(./assets/images/CasaCocktailsPic.png); background-size:100% 100%;">
-        <div class="darkMode">
-          <div class="movingTitle">
-            Casa Cocktails
-          </div>
-          <div class="movingSubtitle">
-            An app for finding out what drinks can be made with what you have on hand including instruction on how to
-            make them. </br>
-            <a class="portLink" href="https://github.com/egarcia1868/Casa-Cocktail">Code</a> ---
-            <a class="portLink" href="https://egarcia1868.github.io/Casa-Cocktail/">App</a>
-          </div>
-        </div>
-      </div>
-      <div class="portfolioPic lightMode"
-        style="background-image:url(./assets/images/WeatherScreenShot.png); background-size:100% 100%;">
-        <div class="darkMode">
-          <div class="movingTitle">
-            Weather Forecast App
-          </div>
-          <div class="movingSubtitle">
-            An app that retrieves the current weather for a searched city as well as the weather forecast for the next
-            five days. </br>
-            <a class="portLink" href="https://github.com/egarcia1868/Weather_Dashboard">Code</a> ---
-            <a class="portLink" href="https://egarcia1868.github.io/Weather_Dashboard/">App</a>
-          </div>
-        </div>
-      </div>
-      <div class="portfolioPic lightMode"
-        style="background-image:url(./assets/images/WorkDayScheduler.png); background-size:100% 100%;">
-        <div class="darkMode">
-          <div class="movingTitle">
-            Day Scheduler
-          </div>
-          <div class="movingSubtitle">
-            An simple scheduler for logging and keeping track of your tasks for the day. </br>
-            <a class="portLink" href="https://github.com/egarcia1868/Work_Day_Scheduler">Code</a> ---
-            <a class="portLink" href="https://egarcia1868.github.io/Work_Day_Scheduler/">App</a>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="portfolioPic lightMode" style="background-image:url(./assets/images/QuizScreenShot.png); background-size:100% 100%;">
-          <a href="https://egarcia1868.github.io/code_quiz/">
-            <div class="darkMode">
-              <div class="movingTitle">
-                Code Quiz</div>
-              <div class="movingSubtitle">
-                A simple quiz app that will keep score - deducting time for wrong answers.</div>
-            </div>
-          </a>
-        </div>   -->
     </div>
     <div class="labelBar" id="contact">
       <h1>Contact Me</h1>
-    </div>
-    <div class="row notTop">
-      <i class="fas fa-envelope"></i>
-      <i class="fas fa-camera"></i>
-      <div style="position: relative; min-height: 675px; margin-bottom: 0px;">
-        <div style="height: 100px;"></div>
-        <div style="position: relative; top: 0px; min-height: 500px; width: 100%; z-index: 1;">
-          <div id="skills" class="container-fluid">
-            <h1 class="text-center mt-3 mb-4" style="color: rgb(255, 255, 255); font-size: 4rem;">Skills</h1>
-            <div class="row no-gutters">
-              <div class="text-center mx-5 col">
-                <div class="container" style="display: inline;"><a><i alt="Git icon" class="fab fa-git-alt"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">Git</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="React.js icon" class="fab fa-react"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">React</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="Node.js icon" class="fab fa-node"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">Node.js</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="HTML icon" class="fab fa-html5"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">HTML 5</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="Javascript icon" class="fab fa-js-square"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">Javascript</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="CSS icon" class="fab fa-css3-alt"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">CSS 3</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="mySQL icon" class="fab icon-mysql"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">MySQL</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="Mongodb icon" class="fab icon-mongodb"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">MongoDB</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="Bootstrap icon" class="fab fa-bootstrap"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">Bootstrap</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="heroku icon" class="fab icon-heroku"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">Heroku</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i alt="jQuery icon" class="fab icon-jquery"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 20px; margin-top: 0px; font-family: Roboto;">jQuery</p>
-                    </i></a></div>
-              </div>
-            </div>
-            <div class="row no-gutters">
-              <div class="text-center col">
-                <div class="container" style="display: inline;"><a><i class="fab"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 22px; margin-top: 0px; font-family: Roboto;">WebPack</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i class="fab"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 22px; margin-top: 0px; font-family: Roboto;">Express</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i class="fab"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 22px; margin-top: 0px; font-family: Roboto;">Handlebars</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i class="fab"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 22px; margin-top: 0px; font-family: Roboto;">React Router</p>
-                    </i></a></div>
-                <div class="container" style="display: inline;"><a><i class="fab"
-                      style="color: rgb(140, 188, 208); margin: 40px 40px 0px; font-size: 70px;">
-                      <p style="font-size: 22px; margin-top: 0px; font-family: Roboto;">Redux</p>
-                    </i></a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </main>
   <footer>
