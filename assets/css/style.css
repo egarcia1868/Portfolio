@@ -156,6 +156,7 @@ label {
   float: left;
   width: 29.33%;
   min-height: 502px;
+  max-height: 502px;
 }
 
 .card-footer {
