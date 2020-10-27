@@ -485,3 +485,21 @@ i {
   /* transition: max-height 0.2s ease-out; */
   background-color: #f1f1f1;
 }
+
+#contactInfo {
+  margin-bottom: 100px;
+}
+
+.contactTextIcon {
+  margin: 40px 40px 0px; font-size: 35px;
+  color: deepskyblue;
+}
+
+.contactText {
+  /* transition: color 1s; */
+  margin-top: 10px;
+}
+
+/* .contactText:hover, a:hover {
+  color: deepskyblue;
+} */
