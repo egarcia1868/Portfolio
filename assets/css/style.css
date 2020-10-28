@@ -232,32 +232,6 @@ label {
     float: left;
     width: inherit;
 }
-
-/* #portCont2 {
-    text-align: center;
-    float: left;
-    width: 30%;
-}
-
-#portCont3 {
-    text-align: center;
-    float: left;
-    width: 30%;
-    margin-left: 4.99%;
-}
-#portCont4 {
-    text-align: center;
-    float: left;
-    width: 30%;
-    margin-right: 4.99%;
-}
-
-#portCont5 {
-    text-align: center;
-    float: left;
-    width: 30%;
-} */
-
 .margBot {
   margin-bottom: 130px;
 }
