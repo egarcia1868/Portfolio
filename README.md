@@ -6,7 +6,11 @@ Here are my bio, contact, and portfolio pages.
 
 ## Overview
 
-Feel free to click through and resize any of my pages as they should respond appropriately to various screen sizes.
+Feel free to click through and resize the page and it will respond appropriately to various screen sizes.
+
+### Demo
+
+![Screenshot!](/assets/images/Portfolio_Nov16_2020.gif?raw=true "Small demo of how my portfolio is displayed")
 
 ## Built With
 
