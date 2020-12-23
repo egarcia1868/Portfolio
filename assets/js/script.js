@@ -1,4 +1,3 @@
-
 function animeFunc(id) {
   let textWrapper = document.querySelector(`#${id}`);
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -64,3 +63,5 @@ function unhider(id) {
 //     } 
 //   });
 // }
+
+alert("Site under construction.  Currently transitioning site to utilize the React framework")
